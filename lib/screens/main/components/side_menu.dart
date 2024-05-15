@@ -18,8 +18,8 @@ class SideMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Uri urlLinkedin =
-        Uri.parse("https://www.linkedin.com/in/igor-gomes-76b59a144/");
-    final Uri urlGithub = Uri.parse("https://github.com/Igorgomes98");
+        Uri.parse("https://www.linkedin.com/in/felipe-dieguez-b70b20233/");
+    final Uri urlGithub = Uri.parse("https://github.com/FelipeDieguez10");
     return Drawer(
       child: SafeArea(
         child: Column(children: [

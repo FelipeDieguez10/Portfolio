@@ -6,7 +6,7 @@ import 'package:portifolio/models/Project.dart';
 class GitWebClient {
   Future<List<Project>?> getGitProjects() async {
     const String githubAPIRepo =
-        "https://api.github.com/users/igorgomes98/repos";
+        "https://api.github.com/users/felipedieguez10/repos";
     final Dio dio = Dio();
     final Response response = await dio.get(githubAPIRepo);
     if (response.statusCode == 200) {
@@ -26,7 +26,7 @@ class GitWebClient {
   Future<List<Language>?> getWakaLanguageTime() async {
     try {
       const String wakaAPILanguage =
-          "https://wakatime.com/share/@igorgomes98/15927b97-0ae9-4a5a-8b46-e3710246b923.json";
+          "https://wakatime.com/share/@felipedieguez10/15927b97-0ae9-4a5a-8b46-e3710246b923.json";
       final Dio dio = Dio();
       final Response response = await dio.get(wakaAPILanguage);
       if (response.statusCode == 200) {
